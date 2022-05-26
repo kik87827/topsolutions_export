@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+.page_wrap{min-width:1280px;}
+.header_wrap{position:relative;z-index:20;}
+.header_wrap:before{display:block;content:'';width:100%;height:1px;background:#f5b08d;position:absolute;bottom:0;left:0;}
+.header_group{display:flex;width:1200px;margin:0 auto;height:80px;align-items: center;justify-content:space-between;}
+.toplogo{display:inline-block;width:228px;flex:0 0 228px;}
+.toplogo_link{display: inline-block;}
+.toplogo_link > img{vertical-align: top;}
+.htop_gnb_list_w{}
+.htop_gnb_list{display:flex;align-items: center;justify-content: center;}
+.htop_gnb_list > li{position:relative;height:79px;display:flex;align-items: center;}
+.htop_gnb_list > li:last-of-type{}
+.gnb_bg{background:#eb5f18;position:absolute;top:79px;left:0;width:100%;transition:.5s;height:0}
+.gnb_one{font-family: 'Open Sans', sans-serif;background:#fff;font-size:20px;line-height:1;font-weight:600;letter-spacing: -.5px;height:78px;display:flex;padding:0 30px;align-items: center;position:relative;z-index:2;}
+.gnb_one:hover{color:#eb5f18;}
+.htop_gnb_list > li.active .gnb_one{color:#eb5f18;}
+.htop_gnb_list > li.active .gnb_two_dep_w{}
+.htop_gnb_list.ready .gnb_two_dep_w{height:0;opacity: 1;display:none;}
+.gnb_two_dep_w{position:absolute;top:79px;left:0;width:100%;opacity:0;transition:.5s;overflow:hidden;}
+.gnb_two_dep_list{padding:40px 0;position:relative;z-index:2;}
+.gnb_two_dep_list > li{margin-bottom:30px;padding:0 30px;}
+.gnb_two_dep_list > li:last-of-type{margin-bottom:0;}
+.gnb_two{font-size:18px;color:#ffffff;font-weight:700;line-height:1;white-space: nowrap;}
+.btn_total_call{width:80px;height:80px;flex:0 0 80px;background:#eb5f18 url("../images/btn_total.png") no-repeat 0 0/100% auto;position:relative;display:block;transition:.5s;}
+.btn_total_call.type2{background-position:0 -80px;}
+.total_menu_wrap{position:absolute;top:79px;left:0;width:100%;background:#eb5f18;display:none;z-index:30;}
+.total_menu_pixin{margin:0 auto;width:1200px;padding:60px 0;}
+.total_menu_tb{display:table;width:100%;font-size:0;line-height:0;}
+.total_menu_tr{display:table-row;}
+.total_menu_cell{display:table-cell;vertical-align: top;padding-bottom:45px;}
+.total_menu_tr:last-of-type .total_menu_cell{padding-bottom:0}
+.total_menu_cell.tm_th{width:1px;padding-right:80px;}
+.total_menu_cell.tm_td{}
+.tm_wpsp{display:inline-block;white-space:nowrap;font-size:20px;font-weight:700;color:#ffffff;border-bottom:1px solid #fff;line-height:1;}
+.tmdep_flist{display:flex;flex-wrap:wrap;position:relative;top:-9px;}
+.tmdep_flist > li{margin:10px 36px 0 0;}
+.tmdep_flist > li:last-of-type{}
+.tmdep{font-size:18px;color:#ffffff;display:inline-block;font-weight:500;line-height:1;}
+
+.footer_wrap{background:#333333;}
+.footer_group{width:1120px;margin:0 auto;display:flex;align-items: center;padding:43px 40px;}
+.botlogo{display:inline-block;width:228px;flex:0 0 228px;}
+.botlogo > img{vertical-align: top;}
+.footer_copy_w{flex:1;padding-left:55px;}
+.footer_copy_01{font-size:15px;color:#aeaeae;line-height:1;letter-spacing: -.5px;}
+.footer_copy_02{color:#868686;font-size:11px;font-family:'Open Sans', sans-serif;margin-top:6px;}
+
+.sub_templete{width:1200px;margin:0 auto;display:flex;padding:60px 0 140px;}
+.sub_left_zone{flex:0 0 170px;}
+.stitbox{background:#eb5f18;display:flex;flex-direction: column;justify-content: space-between;height:130px;padding:0 20px;}
+.stit_sig{font-size:23px;color:#fefefe;letter-spacing: -.5px;font-weight:700;padding-top:22px;line-height: 1;}
+.stit_sub{font-size:20px;color:#fe915a;text-align: right;font-weight:700;letter-spacing: -.5px;padding-bottom:12px;}
+.leftmenu_vlist{}
+.leftmenu_vlist > li{border-bottom:1px solid #ededed;}
+.leftmenu_vlist > li:last-of-type{}
+.leftmenu{display:block;font-size:16px;color:#666666;padding:18px 20px;line-height:1.3;font-weight:500;letter-spacing: -.5px;position:relative;}
+.leftmenu:before{display:block;content:'';width:5px;height:0;position:absolute;top:50%;left:0;transform: translateY(-50%);background:#eb5f18;transition:.5s;}
+.leftmenu:hover:before,
+.leftmenu_vlist > li.active .leftmenu:before{height:62.5%;}
+.leftmenu:hover,
+.leftmenu_vlist > li.active .leftmenu{color:#eb5f18;}
+.sub_right_zone{flex:1;margin-left:55px;}
+.content_title_low{padding-bottom:25px;border-bottom:1px solid #d6d6d6;}
+.content_title{font-size:34px;color:#1b1b1b;line-height:1;letter-spacing: -1px;}
+.content_title_copy{font-size:15px;color:#787878;line-height:1.4;margin-top:15px;}
+.content_content_low{margin-top:40px;}

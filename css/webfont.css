@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Noto Sans KR'),
+      url('./webfont/NotoSans-Light.woff2') format("woff2"),
+      url('./webfont/NotoSans-Light.ttf') format("truetype");
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 350;
+  src: local('Noto Sans KR'),
+      url('./webfont/NotoSans-DemiLight.woff2') format("woff2"),
+      url('./webfont/NotoSans-DemiLight.ttf') format("truetype");
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Sans KR'),
+      url('./webfont/NotoSans-Regular.woff2') format("woff2"),
+      url('./webfont/NotoSans-Regular.ttf') format("truetype");
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Noto Sans KR'),
+      url('./webfont/NotoSans-Medium.woff2') format("woff2"),
+      url('./webfont/NotoSans-Medium.ttf') format("truetype");
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Noto Sans KR'), 
+      url('./webfont/NotoSans-Bold.woff2') format("woff2"),
+      url('./webfont/NotoSans-Bold.ttf') format("truetype");
+}
